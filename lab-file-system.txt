@@ -15,11 +15,11 @@ Follow the instructions line-by-line.
 ==========
 2. Create a directory called mtec1002.
 ----------
-
+ent-v314-016:~ student$ mkdir mtec1002
 ==========
 3. Change your directory so that you're in mtec1002.
 ----------
-
+ent-v314-016:~ student$ cd mtec1002
 ==========
 4. Type:
 
@@ -31,7 +31,7 @@ If it doesn't start at #1 again, or ask for help before moving on!
 
 Copy and paste the output of pwd below.
 ----------
-
+/Users/student/mtec1002
 
 
 ==========
@@ -42,7 +42,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+animals
 
 
 ==========
@@ -53,6 +53,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
+animals	food
 
 
 
@@ -64,6 +65,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
+animals	foo	food
 
 
 
@@ -75,7 +77,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/Users/student/mtec1002/foo/bar/baz/qux
 
 
 ==========
@@ -86,6 +88,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
+/Users/student/mtec1002/foo/bar
 
 
 
@@ -97,6 +100,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
+/Users/student/mtec1002/foo/bar/baz/qux
 
 
  
@@ -108,7 +112,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/Users/student/mtec1002
 
 
 ==========
@@ -120,7 +124,8 @@ $ ls -l
 
 Copy and paste the first two lines from the output into the space below.
 ----------
-
+total 0
+drwxr-xr-x  3 student  staff  102 Jan 29 16:41 foo
 
 
 ==========
@@ -131,6 +136,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
+/Users/student
 
 
 
@@ -142,6 +148,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
+/Volumes
 
 
 
@@ -153,6 +160,9 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
+-bash: cd/unknown_folder: No such file or directory
+ent-v314-016:Volumes student$ pwd
+/Volumes
 
 
 
@@ -164,7 +174,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/Users/student/mtec1002
 
 
 ==========
@@ -174,13 +184,14 @@ $ hostname
 
 Copy and paste the output into the space below.
 ----------
-
+ent-v314-016.local
 
 
 ==========
 17a. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
-
+$ pwd
+/Users/student/mtec1002
 
 
 ==========
@@ -203,7 +214,7 @@ lemon
 
 Use only one command to make all of these new directories.  Write what command you used below:
 ----------
-
+ent-v314-016:mtec1002 student$ mkdir -p Lemon/Strawberry/Orange/Pineapple
 
 
 ==========
@@ -211,7 +222,7 @@ Use only one command to make all of these new directories.  Write what command y
 
 Write the command you used to create the directory below:
 ----------
-
+ent-v314-016:mtec1002 student$ mkdir aardvark
 
 
 ==========
@@ -219,7 +230,13 @@ Write the command you used to create the directory below:
 
 What is the modified date of the aardvark directory?
 ----------
+aardvark was modified Jan 29 at 16:50
 
+total 0
+drwxr-xr-x  3 student  staff  102 Jan 29 16:50 Lemon
+drwxr-xr-x  2 student  staff   68 Jan 29 16:50 aardvark
+drwxr-xr-x  3 student  staff  102 Jan 29 16:41 foo
+drwxr-xr-x  2 student  staff   68 Jan 29 16:40 food
 
 
 ==========
@@ -231,7 +248,7 @@ What is the modified date of the aardvark directory?
 
 What command did you use?
 ----------
-
+ent-v314-016:mtec1002 student$ mkdir -p foo/bar/baz
 
 
 ==========
@@ -239,7 +256,7 @@ What command did you use?
 
 What command did you use?
 ----------
-
+ent-v314-016:mtec1002 student$ cd foo/bar/baz
 
 
 ==========
@@ -247,44 +264,45 @@ What command did you use?
 
 What command did you use?
 ----------
-
+ent-v314-016:baz student$ cd ../..
 
 ==========
 24. What command is used to delete empty directories?
 ----------
-
+rmdir
 
 
 ==========
 25. What command is used to print out your current working directory?
 ----------
-
+cmd
 
 
 ==========
 26. What flag do I pass to ls to print out all files?
 ----------
-
+-a
 
 
 ==========
 27. What's the shortcut for home directory?
 ----------
-
+~
 
 
 ==========
 28. What's a pathname?
 ----------
-
+The location of the file or folder whose pathname you're looking up
 
 
 ==========
 29. What's a directory?
 ----------
-
+Also known as a folder, it's a place where you can find more files or folders.
 
 
 ==========
 30. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+/Users/student/Downloads
