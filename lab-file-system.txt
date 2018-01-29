@@ -238,7 +238,6 @@ drwxr-xr-x  2 student  staff   68 Jan 29 16:50 aardvark
 drwxr-xr-x  3 student  staff  102 Jan 29 16:41 foo
 drwxr-xr-x  2 student  staff   68 Jan 29 16:40 food
 
-
 ==========
 21. Make 3 directories nested within each other:
 
